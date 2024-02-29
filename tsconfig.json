@@ -1,0 +1,26 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./target/types"
+  },
+  "kbn_references": [
+    "@kbn/share-plugin/public",
+    "@kbn/field-formats-plugin/common",
+    "@kbn/expressions-plugin/common",
+    "@kbn/data-views-plugin/public",
+    "@kbn/data-views-plugin/common",
+    "@kbn/bfetch-plugin/public"
+  ],
+
+  "include": [
+    "index.ts",
+    "common/**/*.ts",
+    "public/**/*.ts",
+    "public/**/*.tsx",
+    "public/**/*.png",
+    "public/**/*.json",
+    "server/**/*.ts",
+    "../../typings/**/*"
+  ],
+  "exclude": []
+}

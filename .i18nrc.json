@@ -1,0 +1,7 @@
+{
+  "prefix": "spittingAlpaca",
+  "paths": {
+    "spittingAlpaca": "."
+  },
+  "translations": ["translations/ja-JP.json"]
+}
